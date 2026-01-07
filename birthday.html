@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Birthday Surprise 🎉</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #fce4ec;
+            padding: 30px;
+        }
+
+        #surprise {
+            display: none;
+            margin-top: 30px;
+        }
+
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 10px;
+            background-color: #ff4081;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e91e63;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+    </style>
+
+    <script>
+        function showSurprise() {
+            document.getElementById("surprise").style.display = "block";
+        }
+    </script>
+</head>
+
+<body>
+
+    <h1>Hey!! Today what's Special about You?🎉</h1>
+    
+    <p style="font-size:18px;">
+    ⚠️ Warning ⚠️<br>
+    Clicking this link was a risky decision 😜<br><br>
+    You are now infected with:<br>
+    🎉 Birthday vibes<br>
+    😄 Unlimited happiness<br>
+    🎂 Cake addiction<br><br>
+    No antivirus available 😎
+    </p>
+
+
+
+    <br>
+
+    <button onclick="showSurprise()">👉 CLICK AT YOUR OWN RISK</button>
+
+    <!-- Hidden Surprise -->
+    <div id="surprise" style="display:none;">
+
+        <h2>🎉 SURPRISE UNLOCKED 🎉</h2>
+
+        <img src="thammudu.jpg" alt="Birthday Image">
+
+        <p style="font-size:20px;">
+            🎉 Happy Birthday Ra🎉<br>
+            From your Sister❤️💙<br>
+            <br>
+            May your life be full of happiness, health, and success..💙
+        </p>
+
+    </div>
+
+</body>
+</html>
